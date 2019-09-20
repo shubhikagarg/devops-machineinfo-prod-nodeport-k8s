@@ -1,0 +1,4 @@
+
+Here we have three worker node .
+And 2 replica of same pod and both replica are running on different worker node by default.
+ and if we hit worker without pod it use round robin fasion and load balance traffic on both worker node on which pod is working .
