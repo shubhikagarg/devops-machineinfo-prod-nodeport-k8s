@@ -37,7 +37,7 @@ jobs:
       with:
         version: '270.0.0'
         service_account_email: shubhika-github-sa@cybage-devops.iam.gserviceaccount.com
-        service_account_key: cybage-devops-cf4caa3f6708.json
+        service_account_key:1fce4690f38d11e9ac5041e9fceeacfdedfd6d7b	
 
     # Configure docker to use the gcloud command-line tool as a credential helper
     - run: |
