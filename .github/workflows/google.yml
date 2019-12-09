@@ -37,7 +37,7 @@ jobs:
       with:
         version: '270.0.0'
         service_account_email: shubhika-github-sa@cybage-devops.iam.gserviceaccount.com
-        service_account_key:1fce4690f38d11e9ac5041e9fceeacfdedfd6d7b	
+        service_account_key: 1fce4690f38d11e9ac5041e9fceeacfdedfd6d7b	
 
  
     - run: |
