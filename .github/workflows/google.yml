@@ -36,8 +36,8 @@ jobs:
     - uses: GoogleCloudPlatform/github-actions/setup-gcloud@master
       with:
         version: '270.0.0'
-        service_account_email: ctg-devops-shubhika-sa@cybage-devops.iam.gserviceaccount.com
-        service_account_key: 1fce4690f38d11e9ac5041e9fceeacfdedfd6d7b
+        service_account_email: shubhika-github-sa@cybage-devops.iam.gserviceaccount.com
+        service_account_key: cybage-devops-cf4caa3f6708.json
 
     # Configure docker to use the gcloud command-line tool as a credential helper
     - run: |
