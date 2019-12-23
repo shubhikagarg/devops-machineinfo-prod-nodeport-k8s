@@ -22,7 +22,7 @@ env:
   GITHUB_SHA: ${{ github.sha }}
   GKE_ZONE: us-central1-a
   GKE_CLUSTER: shubhika-cluster
-  IMAGE: gke-test1
+  IMAGE: gke-test
 
 jobs:
   setup-build-publish-deploy:
