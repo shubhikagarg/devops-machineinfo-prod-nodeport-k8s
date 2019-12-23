@@ -21,7 +21,7 @@ env:
   GKE_EMAIL: ${{ secrets.GKE_EMAIL }}
   GITHUB_SHA: ${{ github.sha }}
   GKE_ZONE: us-central1-a
-  GKE_CLUSTER: shubhika-cluster
+  GKE_CLUSTER: shubhika-cluster-github
   IMAGE: gcr.io/cybage-devops/nehashirsat/devops_repo
 jobs:
   setup-build-publish-deploy:
