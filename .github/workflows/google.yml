@@ -22,7 +22,7 @@ env:
   GITHUB_SHA: ${{ github.sha }}
   GKE_ZONE: us-central1-a
   GKE_CLUSTER: shubhika-cluster
-  IMAGE: gcr.io/cybage-devops/nehashirsat/devops_repo@sha256:a61dcd84b996eeeaa8f26d130b0f6ce55fb1365dc9a876f2dbbaa17836e88f43
+  IMAGE: gcr.io/cybage-devops/nehashirsat/devops_repo:latest
 jobs:
   setup-build-publish-deploy:
     name: Setup, Build, Publish, and Deploy
